@@ -1,0 +1,7 @@
+command_id: 710.718.22B921
+test_cases:
+- expected_values:
+    MG_GWM_ODO: 66523
+  response: |-
+    718100962B9210103DB
+    718210103C4AAAAAAAA
