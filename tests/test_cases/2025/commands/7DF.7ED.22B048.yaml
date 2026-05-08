@@ -1,0 +1,18 @@
+command_id: 7DF.7ED.22B048
+test_cases:
+- expected_values:
+    MG_BMS_STATUS: 151
+    MG_HVBAT_CHARGING: 1
+  response: 7ED0562B04897CC
+- expected_values:
+    MG_BMS_STATUS: 152
+    MG_HVBAT_CHARGING: 0
+  response: 7ED0562B0489808
+- expected_values:
+    MG_BMS_STATUS: 152
+    MG_HVBAT_CHARGING: 0
+  response: 7ED0562B04898F8
+- expected_values:
+    MG_BMS_STATUS: 155
+    MG_HVBAT_CHARGING: 1
+  response: 7ED0562B0489B32

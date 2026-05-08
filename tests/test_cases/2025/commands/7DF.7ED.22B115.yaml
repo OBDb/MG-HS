@@ -1,0 +1,14 @@
+command_id: 7DF.7ED.22B115
+test_cases:
+- expected_values:
+    MG_HVBAT_CMU24_MINVOLT: 10
+  response: 7ED0562B115981C
+- expected_values:
+    MG_HVBAT_CMU24_MINVOLT: 10
+  response: 7ED0562B11598D0
+- expected_values:
+    MG_HVBAT_CMU24_MINVOLT: 10
+  response: 7ED0562B1159934
+- expected_values:
+    MG_HVBAT_CMU24_MINVOLT: 10
+  response: 7ED0562B1159B0A
