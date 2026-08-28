@@ -90,6 +90,7 @@ supported_commands_by_ecu:
   - 0131:CLR_DIST
   - 0142:VPWR
   - 0145:TP_R
+  - 7E1.7E9.0111
 unsupported_commands_by_ecu:
   "7DF":
   - 7DF.7EC.22B003:MG_EVCC_MAX_CURRENT
