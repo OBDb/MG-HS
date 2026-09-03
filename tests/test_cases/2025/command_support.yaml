@@ -75,6 +75,13 @@ supported_commands_by_ecu:
   - 0143:LOAD_ABS
   - 0144:EQ_RAT
   - 0145:TP_R
+  - 0146:AAT
+  - 0147:TP_B
+  - 0149:APP_D
+  - 014A:APP_E
+  - 014C:TAC_PCT
+  - 0156:LGSO2FT1
+  - 01A6:ODO
   - 7E0.0104:LOAD_PCT
   - 7E0.0106:SHRTFT1
   - 7E0.010D:VSS
@@ -96,6 +103,7 @@ supported_commands_by_ecu:
   - 0131:CLR_DIST
   - 0142:VPWR
   - 0145:TP_R
+  - 7E1.7E9.010D
   - 7E1.7E9.0111
 unsupported_commands_by_ecu:
   "7DF":
