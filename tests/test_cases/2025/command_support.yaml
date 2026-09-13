@@ -105,6 +105,7 @@ supported_commands_by_ecu:
   - 0131:CLR_DIST
   - 0142:VPWR
   - 0145:TP_R
+  - 7E1.7E9.0104
   - 7E1.7E9.010D
   - 7E1.7E9.0111
 unsupported_commands_by_ecu:
