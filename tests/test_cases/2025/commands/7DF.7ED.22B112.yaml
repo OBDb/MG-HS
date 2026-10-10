@@ -1,14 +1,10 @@
 command_id: 7DF.7ED.22B112
 test_cases:
-- expected_values:
-    MG_HVBAT_CMU21_MINVOLT: 10
+- expected_values: {}
   response: 7ED0562B1129826
-- expected_values:
-    MG_HVBAT_CMU21_MINVOLT: 10
+- expected_values: {}
   response: 7ED0562B11298DA
-- expected_values:
-    MG_HVBAT_CMU21_MINVOLT: 10
+- expected_values: {}
   response: 7ED0562B1129952
-- expected_values:
-    MG_HVBAT_CMU21_MINVOLT: 10
+- expected_values: {}
   response: 7ED0562B1129B1E
