@@ -1,16 +1,23 @@
 command_id: 7DF.7ED.22B056
 test_cases:
-- expected_values: {}
+- expected_values:
+    HS_BMS_B056_RAW: 38870
   response: 7ED0562B05697D6
-- expected_values: {}
+- expected_values:
+    HS_BMS_B056_RAW: 38990
   response: 7ED0562B056984E
-- expected_values: {}
+- expected_values:
+    HS_BMS_B056_RAW: 39100
   response: 7ED0562B05698BC
-- expected_values: {}
+- expected_values:
+    HS_BMS_B056_RAW: 39150
   response: 7ED0562B05698EE
-- expected_values: {}
+- expected_values:
+    HS_BMS_B056_RAW: 39170
   response: 7ED0562B0569902
-- expected_values: {}
+- expected_values:
+    HS_BMS_B056_RAW: 39270
   response: 7ED0562B0569966
-- expected_values: {}
+- expected_values:
+    HS_BMS_B056_RAW: 39740
   response: 7ED0562B0569B3C
