@@ -1,10 +1,14 @@
 command_id: 7DF.7ED.22B110
 test_cases:
-- expected_values: {}
+- expected_values:
+    HS_BMS_B110_RAW: 38950
   response: 7ED0562B1109826
-- expected_values: {}
+- expected_values:
+    HS_BMS_B110_RAW: 39130
   response: 7ED0562B11098DA
-- expected_values: {}
+- expected_values:
+    HS_BMS_B110_RAW: 39240
   response: 7ED0562B1109948
-- expected_values: {}
+- expected_values:
+    HS_BMS_B110_RAW: 39680
   response: 7ED0562B1109B00
