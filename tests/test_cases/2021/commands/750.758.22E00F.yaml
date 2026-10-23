@@ -1,0 +1,8 @@
+command_id: 750.758.22E00F
+test_cases:
+- expected_values:
+    HS_BLOWER: 0
+  response: 7580562E00F0000
+- expected_values:
+    HS_BLOWER: 271
+  response: 7580562E00F010F

@@ -1,0 +1,17 @@
+command_id: '740.22E101'
+test_cases:
+- expected_values:
+    HS_BCM_ODO: 42712
+  response: 7480662E10100A6D8
+- expected_values:
+    HS_BCM_ODO: 42713
+  response: 7480662E10100A6D9
+- expected_values:
+    HS_BCM_ODO: 42714
+  response: 7480662E10100A6DA
+- expected_values:
+    HS_BCM_ODO: 42715
+  response: 7480662E10100A6DB
+- expected_values:
+    HS_BCM_ODO: 42716
+  response: 7480662E10100A6DC

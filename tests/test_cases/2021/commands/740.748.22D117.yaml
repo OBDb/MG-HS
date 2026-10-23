@@ -1,0 +1,11 @@
+command_id: 740.748.22D117
+test_cases:
+- expected_values:
+    HS_DRL: 0
+  response: 7480762D11700200000
+- expected_values:
+    HS_DRL: 0
+  response: 7480762D11704200000
+- expected_values:
+    HS_DRL: 0
+  response: 7480762D11704200111
