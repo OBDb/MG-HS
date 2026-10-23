@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22B034
+test_cases:
+- expected_values:
+    HS_EO_T: 49.5
+  response: 7E80462B03482
+- expected_values:
+    HS_EO_T: 101.25
+  response: 7E80462B034C7

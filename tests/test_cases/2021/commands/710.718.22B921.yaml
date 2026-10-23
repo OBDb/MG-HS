@@ -1,6 +1,11 @@
 command_id: 710.718.22B921
 test_cases:
 - expected_values:
+    HS_GWM_ODO: 42712
+  response: |-
+    718100962B92100A6D8
+    7182100A6CCAAAAAAAA
+- expected_values:
     HS_GWM_ODO: 66523
   response: |-
     718100962B9210103DB

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22B140
+test_cases:
+- expected_values:
+    HS_KNOCK_SNS_V: 0.03922
+  response: 7E80562B1400236
+- expected_values:
+    HS_KNOCK_SNS_V: 0.07843
+  response: 7E80562B1400404
+- expected_values:
+    HS_KNOCK_SNS_V: 0.13725
+  response: 7E80562B14007F6
+- expected_values:
+    HS_KNOCK_SNS_V: 0.15686
+  response: 7E80562B140085A

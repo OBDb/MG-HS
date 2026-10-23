@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22B036
+test_cases:
+- expected_values:
+    HS_EOP: 282.2425
+  response: 7E80562B0363025
+- expected_values:
+    HS_EOP: 299.0511
+  response: 7E80562B0363303
+- expected_values:
+    HS_EOP: 304.2265
+  response: 7E80562B03633E5
+- expected_values:
+    HS_EOP: 395.8494
+  response: 7E80562B0364386

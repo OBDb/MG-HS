@@ -1,0 +1,17 @@
+command_id: 760.768.22B101
+test_cases:
+- expected_values:
+    HS_ODO_V2: 42712
+  response: 7680662B10100A6D8
+- expected_values:
+    HS_ODO_V2: 42713
+  response: 7680662B10100A6D9
+- expected_values:
+    HS_ODO_V2: 42714
+  response: 7680662B10100A6DA
+- expected_values:
+    HS_ODO_V2: 42715
+  response: 7680662B10100A6DB
+- expected_values:
+    HS_ODO_V2: 42716
+  response: 7680662B10100A6DC

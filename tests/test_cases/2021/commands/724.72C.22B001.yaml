@@ -1,0 +1,32 @@
+command_id: 724.72C.22B001
+test_cases:
+- expected_values:
+    HS_TP_FL: 240
+    HS_TP_FR: 240
+    HS_TP_RL: 208
+    HS_TP_RR: 204
+  response: 72C0762B0013C3C3334
+- expected_values:
+    HS_TP_FL: 244
+    HS_TP_FR: 240
+    HS_TP_RL: 208
+    HS_TP_RR: 204
+  response: 72C0762B0013D3C3334
+- expected_values:
+    HS_TP_FL: 244
+    HS_TP_FR: 244
+    HS_TP_RL: 208
+    HS_TP_RR: 204
+  response: 72C0762B0013D3D3334
+- expected_values:
+    HS_TP_FL: 244
+    HS_TP_FR: 244
+    HS_TP_RL: 212
+    HS_TP_RR: 204
+  response: 72C0762B0013D3D3335
+- expected_values:
+    HS_TP_FL: 244
+    HS_TP_FR: 244
+    HS_TP_RL: 212
+    HS_TP_RR: 208
+  response: 72C0762B0013D3D3435

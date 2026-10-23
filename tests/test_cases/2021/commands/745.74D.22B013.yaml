@@ -1,0 +1,11 @@
+command_id: 745.74D.22B013
+test_cases:
+- expected_values:
+    HS_UNLOCKED: 0
+  response: 74D0762B01308200002
+- expected_values:
+    HS_UNLOCKED: 0
+  response: 74D0762B01309110010
+- expected_values:
+    HS_UNLOCKED: 0
+  response: 74D0762B01309140000

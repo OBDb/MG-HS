@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22B144
+test_cases:
+- expected_values:
+    HS_MISFIRES_C2: 1772
+  response: 7E80562B14406EC
+- expected_values:
+    HS_MISFIRES_C2: 1773
+  response: 7E80562B14406ED

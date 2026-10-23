@@ -1,0 +1,8 @@
+command_id: 750.758.22E01B
+test_cases:
+- expected_values:
+    HS_AAT_ATC: 12
+  response: 7580562E01B0208
+- expected_values:
+    HS_AAT_ATC: 16.3
+  response: 7580562E01B0233

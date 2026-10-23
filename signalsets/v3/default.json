@@ -1,27 +1,31 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "7E0", "type": "engine" },
+    { "hdr": "7E1", "type": "transmission" }
+  ],
+  "commands": [
 { "hdr": "710", "rax": "718", "cmd": {"22": "B921"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "HS_GWM_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "710", "rax": "718", "cmd": {"22": "D001"}, "freq": 4, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "710", "rax": "718", "cmd": {"22": "D001"}, "freq": 4, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "HS_GWM_STATUS", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Vehicle gateway status"}
   ]},
-{ "hdr": "724", "rax": "72C", "dbg": true, "cmd": {"22": "B001"}, "freq": 5,
+{ "hdr": "724", "rax": "72C", "cmd": {"22": "B001"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "HS_TP_FL", "path": "Tires", "fmt": {           "len": 8, "max": 1020, "mul": 4, "unit": "kilopascal" }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"},
     {"id": "HS_TP_FR", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 1020, "mul": 4, "unit": "kilopascal" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
     {"id": "HS_TP_RR", "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 1020, "mul": 4, "unit": "kilopascal" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"},
     {"id": "HS_TP_RL", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 1020, "mul": 4, "unit": "kilopascal" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"}
   ]},
-{ "hdr": "724", "rax": "72C", "dbg": true, "cmd": {"22": "B003"}, "freq": 5,
+{ "hdr": "724", "rax": "72C", "cmd": {"22": "B003"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "HS_TT_FL", "path": "Tires", "fmt": {           "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Front left tire temperature"},
     {"id": "HS_TT_FR", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Front right tire temperature"},
     {"id": "HS_TT_RR", "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Rear right tire temperature"},
     {"id": "HS_TT_RL", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Rear left tire temperature"}
   ]},
-{ "hdr": "740", "dbg": true, "cmd": {"22": "E101"}, "freq": 30,
+{ "hdr": "740", "cmd": {"22": "E101"}, "freq": 30, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "HS_BCM_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer, body control module"}
   ]},
@@ -36,15 +40,15 @@
     {"id": "HS_BCM_TT_RL", "path": "Tires", "fmt": {"bix": 48, "len": 8, "max": 195, "min": -60,           "add": -60, "unit": "celsius"    }, "name": "Rear left tire temperature",   "suggestedMetric": "rearLeftTireTemperature"},
     {"id": "HS_BCM_TT_RR", "path": "Tires", "fmt": {"bix": 56, "len": 8, "max": 195, "min": -60,           "add": -60, "unit": "celsius"    }, "name": "Rear right tire temperature",  "suggestedMetric": "rearRightTireTemperature"}
   ]},
-{ "hdr": "740", "rax": "748", "dbg": true, "cmd": {"22": "D117"}, "freq": 5,
+{ "hdr": "740", "rax": "748", "cmd": {"22": "D117"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "HS_DRL", "path": "Lights", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Headlights on"}
   ]},
-{ "hdr": "745", "rax": "74D", "dbg": true, "cmd": {"22": "B013"}, "freq": 5,
+{ "hdr": "745", "rax": "74D", "cmd": {"22": "B013"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "HS_UNLOCKED", "path": "Doors", "fmt": {"bix": 31, "len": 1, "max": 1, "unit": "yesno" }, "name": "Vehicle unlocked"}
   ]},
-{ "hdr": "750", "rax": "758", "dbg": true, "cmd": {"22": "E00F"}, "freq": 10,
+{ "hdr": "750", "rax": "758", "cmd": {"22": "E00F"}, "freq": 10, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "HS_BLOWER", "path": "Climate", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Blower speed"}
   ]},
@@ -52,7 +56,7 @@
   "signals": [
     {"id": "HS_FACE_OUTLET_T", "path": "Climate", "fmt": { "len": 16, "max": 6523.5, "min": -30, "div": 10, "add": -30, "unit": "celsius" }, "name": "Face vent outlet temperature"}
   ]},
-{ "hdr": "750", "rax": "758", "dbg": true, "cmd": {"22": "E01B"}, "freq": 10,
+{ "hdr": "750", "rax": "758", "cmd": {"22": "E01B"}, "freq": 10, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "HS_AAT_ATC", "path": "Climate", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Ambient temperature, climate control"}
   ]},
@@ -60,7 +64,7 @@
   "signals": [
     {"id": "HS_PTC_T", "path": "Climate", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Cabin heater temperature"}
   ]},
-{ "hdr": "760", "rax": "768", "dbg": true, "cmd": {"22": "B101"}, "freq": 1,
+{ "hdr": "760", "rax": "768", "cmd": {"22": "B101"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "HS_ODO_V2", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
@@ -309,35 +313,35 @@
   "signals": [
     {"id": "HS_BMS_B115_RAW", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Battery module B115 raw value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "B034"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "B034"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "HS_EO_T", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 0.75, "add": -48, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "B036"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "B036"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "HS_EOP", "path": "Engine", "fmt": { "len": 16, "max": 1500.7515, "mul": 229, "div": 10000, "unit": "kilopascal" }, "name": "Engine oil pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "B043"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "B043"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "HS_FUEL_TANK_LEVEL", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "liters" }, "name": "Fuel tank level"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "B140"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "B140"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "HS_KNOCK_SNS_V", "path": "Battery", "fmt": { "len": 8, "max": 5, "mul": 5, "div": 255, "unit": "volts" }, "name": "Knock sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "B143"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "B143"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "HS_MISFIRES_C1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "B144"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "B144"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "HS_MISFIRES_C2", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "B145"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "B145"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "HS_MISFIRES_C3", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "B146"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "B146"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "HS_MISFIRES_C4", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 4"}
   ]},
