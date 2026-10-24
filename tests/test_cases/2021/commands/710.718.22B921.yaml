@@ -6,6 +6,11 @@ test_cases:
     718100962B92100A6D8
     7182100A6CCAAAAAAAA
 - expected_values:
+    HS_GWM_ODO: 42728
+  response: |-
+    718100962B92100A6E8
+    7182100A6CCAAAAAAAA
+- expected_values:
     HS_GWM_ODO: 66523
   response: |-
     718100962B9210103DB

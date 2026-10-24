@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22B043
 test_cases:
 - expected_values:
+    HS_FUEL_TANK_LEVEL: 41
+  response: 7E80562B043019A
+- expected_values:
     HS_FUEL_TANK_LEVEL: 45
   response: 7E80562B04301C2
 - expected_values:

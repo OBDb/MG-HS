@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     HS_BCM_ODO: 42716
   response: 7480662E10100A6DC
+- expected_values:
+    HS_BCM_ODO: 42728
+  response: 7480662E10100A6E8
