@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     HS_MISFIRES_C1: 2948
   response: 7E80562B1430B84
+- expected_values:
+    HS_MISFIRES_C1: 2950
+  response: 7E80562B1430B86

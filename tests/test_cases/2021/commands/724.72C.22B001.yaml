@@ -7,12 +7,6 @@ test_cases:
     HS_TP_RR: 196
   response: 72C0762B0013A393132
 - expected_values:
-    HS_TP_FL: 244
-    HS_TP_FR: 244
-    HS_TP_RL: 208
-    HS_TP_RR: 208
-  response: 72C0762B0013D3D3434
-- expected_values:
     HS_TP_FL: 248
     HS_TP_FR: 244
     HS_TP_RL: 216
@@ -30,3 +24,9 @@ test_cases:
     HS_TP_RL: 212
     HS_TP_RR: 208
   response: 72C0762B0013F3F3435
+- expected_values:
+    HS_TP_FL: 252
+    HS_TP_FR: 252
+    HS_TP_RL: 216
+    HS_TP_RR: 212
+  response: 72C0762B0013F3F3536

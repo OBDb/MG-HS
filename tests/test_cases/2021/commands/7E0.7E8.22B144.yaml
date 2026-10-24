@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     HS_MISFIRES_C2: 1773
   response: 7E80562B14406ED
+- expected_values:
+    HS_MISFIRES_C2: 1774
+  response: 7E80562B14406EE
