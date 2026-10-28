@@ -20,10 +20,10 @@ test_cases:
   response: 72C0762B0013E3D3436
 - expected_values:
     HS_TP_FL: 252
-    HS_TP_FR: 252
-    HS_TP_RL: 212
+    HS_TP_FR: 248
+    HS_TP_RL: 216
     HS_TP_RR: 208
-  response: 72C0762B0013F3F3435
+  response: 72C0762B0013F3E3436
 - expected_values:
     HS_TP_FL: 252
     HS_TP_FR: 252

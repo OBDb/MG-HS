@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     HS_DRL: 0
   response: 7480762D11704200111
+- expected_values:
+    HS_DRL: 1
+  response: 7480762D117802E0022

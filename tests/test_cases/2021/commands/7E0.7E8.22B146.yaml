@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     HS_MISFIRES_C4: 1827
   response: 7E80562B1460723
+- expected_values:
+    HS_MISFIRES_C4: 1830
+  response: 7E80562B1460726
+- expected_values:
+    HS_MISFIRES_C4: 1831
+  response: 7E80562B1460727
