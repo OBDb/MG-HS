@@ -8,16 +8,16 @@ test_cases:
   response: 72C0762B0013A393132
 - expected_values:
     HS_TP_FL: 244
+    HS_TP_FR: 240
+    HS_TP_RL: 216
+    HS_TP_RR: 208
+  response: 72C0762B0013D3C3436
+- expected_values:
+    HS_TP_FL: 244
     HS_TP_FR: 252
     HS_TP_RL: 208
     HS_TP_RR: 200
   response: 72C0762B0013D3F3234
-- expected_values:
-    HS_TP_FL: 248
-    HS_TP_FR: 244
-    HS_TP_RL: 216
-    HS_TP_RR: 208
-  response: 72C0762B0013E3D3436
 - expected_values:
     HS_TP_FL: 252
     HS_TP_FR: 248
