@@ -7,26 +7,26 @@ test_cases:
     HS_TP_RR: 196
   response: 72C0762B0013A393132
 - expected_values:
-    HS_TP_FL: 244
-    HS_TP_FR: 240
-    HS_TP_RL: 216
-    HS_TP_RR: 204
-  response: 72C0762B0013D3C3336
+    HS_TP_FL: 256
+    HS_TP_FR: 256
+    HS_TP_RL: 220
+    HS_TP_RR: 216
+  response: 72C0762B00140403637
 - expected_values:
-    HS_TP_FL: 244
-    HS_TP_FR: 252
-    HS_TP_RL: 208
-    HS_TP_RR: 200
-  response: 72C0762B0013D3F3234
+    HS_TP_FL: 260
+    HS_TP_FR: 256
+    HS_TP_RL: 224
+    HS_TP_RR: 216
+  response: 72C0762B00141403638
 - expected_values:
-    HS_TP_FL: 252
-    HS_TP_FR: 248
-    HS_TP_RL: 216
-    HS_TP_RR: 208
-  response: 72C0762B0013F3E3436
+    HS_TP_FL: 260
+    HS_TP_FR: 264
+    HS_TP_RL: 224
+    HS_TP_RR: 216
+  response: 72C0762B00141423638
 - expected_values:
-    HS_TP_FL: 252
-    HS_TP_FR: 252
-    HS_TP_RL: 216
-    HS_TP_RR: 212
-  response: 72C0762B0013F3F3536
+    HS_TP_FL: 264
+    HS_TP_FR: 260
+    HS_TP_RL: 224
+    HS_TP_RR: 216
+  response: 72C0762B00142413638
