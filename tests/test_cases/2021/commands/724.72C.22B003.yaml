@@ -36,3 +36,9 @@ test_cases:
     HS_TT_RL: 18.5
     HS_TT_RR: 18.5
   response: 72C0762B00326282525
+- expected_values:
+    HS_TT_FL: 21
+    HS_TT_FR: 21.5
+    HS_TT_RL: 20
+    HS_TT_RR: 20
+  response: 72C0762B0032A2B2828

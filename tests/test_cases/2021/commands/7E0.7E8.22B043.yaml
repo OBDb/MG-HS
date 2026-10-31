@@ -7,6 +7,9 @@ test_cases:
     HS_FUEL_TANK_LEVEL: 37.3
   response: 7E80562B0430175
 - expected_values:
+    HS_FUEL_TANK_LEVEL: 38
+  response: 7E80562B043017C
+- expected_values:
     HS_FUEL_TANK_LEVEL: 41
   response: 7E80562B043019A
 - expected_values:
