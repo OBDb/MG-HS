@@ -1,17 +1,17 @@
 command_id: 724.72C.22B001
 test_cases:
 - expected_values:
-    HS_TP_FL: 232
-    HS_TP_FR: 228
-    HS_TP_RL: 200
-    HS_TP_RR: 196
-  response: 72C0762B0013A393132
+    HS_TP_FL: 220
+    HS_TP_FR: 220
+    HS_TP_RL: 196
+    HS_TP_RR: 188
+  response: 72C0762B00137372F31
 - expected_values:
-    HS_TP_FL: 256
-    HS_TP_FR: 256
+    HS_TP_FL: 220
+    HS_TP_FR: 220
     HS_TP_RL: 220
-    HS_TP_RR: 216
-  response: 72C0762B00140403637
+    HS_TP_RR: 220
+  response: 72C0762B00137373737
 - expected_values:
     HS_TP_FL: 260
     HS_TP_FR: 256
