@@ -1,6 +1,12 @@
 command_id: 724.72C.22B003
 test_cases:
 - expected_values:
+    HS_TT_FL: 17.5
+    HS_TT_FR: 18.5
+    HS_TT_RL: 17
+    HS_TT_RR: 17
+  response: 72C0762B00323252222
+- expected_values:
     HS_TT_FL: 18.5
     HS_TT_FR: 18.5
     HS_TT_RL: 18

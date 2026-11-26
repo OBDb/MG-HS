@@ -4,5 +4,8 @@ test_cases:
     HS_BLOWER: 0
   response: 7580562E00F0000
 - expected_values:
+    HS_BLOWER: 214
+  response: 7580562E00F00D6
+- expected_values:
     HS_BLOWER: 271
   response: 7580562E00F010F
