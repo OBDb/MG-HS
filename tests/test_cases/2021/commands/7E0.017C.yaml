@@ -1,0 +1,26 @@
+command_id: 7E0.017C
+test_cases:
+- expected_values:
+    DPF1_INT: 231.3
+    DPF1_INT_SUP: 1
+    DPF1_OUTT: 199.1
+    DPF1_OUTT_SUP: 1
+    DPF2_INT: -40
+    DPF2_INT_SUP: 0
+    DPF2_OUTT: -40
+    DPF2_OUTT_SUP: 0
+  response: |-
+    7E8100B417C030A9909
+    7E8215700000000AAAA
+- expected_values:
+    DPF1_INT: 235.3
+    DPF1_INT_SUP: 1
+    DPF1_OUTT: 203
+    DPF1_OUTT_SUP: 1
+    DPF2_INT: -40
+    DPF2_INT_SUP: 0
+    DPF2_OUTT: -40
+    DPF2_OUTT_SUP: 0
+  response: |-
+    7E8100B417C030AC109
+    7E8217E00000000AAAA

@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     HS_ODO_V2: 42790
   response: 7680662B10100A726
+- expected_values:
+    HS_ODO_V2: 43634
+  response: 7680662B10100AA72
