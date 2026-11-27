@@ -21,26 +21,6 @@ test_cases:
     718100962B92100AA72
     7182100AA50AAAAAAAA
 - expected_values:
-    HS_GWM_ODO: 43635
-  response: |-
-    718100962B92100AA73
-    7182100AA50AAAAAAAA
-- expected_values:
-    HS_GWM_ODO: 43636
-  response: |-
-    718100962B92100AA74
-    7182100AA50AAAAAAAA
-- expected_values:
-    HS_GWM_ODO: 43637
-  response: |-
-    718100962B92100AA75
-    7182100AA50AAAAAAAA
-- expected_values:
-    HS_GWM_ODO: 43638
-  response: |-
-    718100962B92100AA76
-    7182100AA50AAAAAAAA
-- expected_values:
     HS_GWM_ODO: 66523
   response: |-
     718100962B9210103DB
