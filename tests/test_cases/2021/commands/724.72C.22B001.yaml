@@ -9,9 +9,9 @@ test_cases:
 - expected_values:
     HS_TP_FL: 220
     HS_TP_FR: 220
-    HS_TP_RL: 220
+    HS_TP_RL: 200
     HS_TP_RR: 220
-  response: 72C0762B00137373737
+  response: 72C0762B00137373732
 - expected_values:
     HS_TP_FL: 260
     HS_TP_FR: 256
